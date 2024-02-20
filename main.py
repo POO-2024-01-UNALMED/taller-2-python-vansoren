@@ -15,7 +15,7 @@ class Auto:
         a+=1
     return a
 
-  def verificarIdentidad(self):
+  def verificarIntegridad(self):
     if self.registro==self.motor.registro:
       for i in self.asientos:
         if i.registro!=self.registro:
