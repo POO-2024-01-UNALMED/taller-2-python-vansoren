@@ -21,8 +21,7 @@ class Auto:
         if i!=None:
           if i.registro!=self.registro:
             return "las piezas no son originales"
-          else:
-            return "Auto original"
+          break
       return "Auto original"
     else:
       return "las piezas no son originales"
